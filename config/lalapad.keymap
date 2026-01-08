@@ -1,5 +1,6 @@
 #include <input/processors.dtsi>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -193,6 +194,13 @@
             #binding-cells = <0>;
             bindings = <&kp N5 &kp N1 &kp N5 &kp N9 &kp N3 &kp TAB &kp E &kp T &kp O &kp N0 &kp N5 &kp N1 &kp N5 &kp N9 &kp N3 &kp ENTER>;
             label = "NEW_MACRO2";
+        };
+
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bl BL_ON>;
+            label = "NEW_MACRO";
         };
     };
 
