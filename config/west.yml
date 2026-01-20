@@ -10,7 +10,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: app/west.yml
+      import: true
     - name: cirque-input-module
       remote: ShiniNet
       revision: main
