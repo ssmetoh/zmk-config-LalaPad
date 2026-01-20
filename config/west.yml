@@ -9,11 +9,11 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: a7272d2
       import: app/west.yml
     - name: cirque-input-module
       remote: ShiniNet
-      revision: main
+      revision: a7272d2
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
