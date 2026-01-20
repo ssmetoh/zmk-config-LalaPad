@@ -184,14 +184,14 @@
         new_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A>;
+            bindings = <&kp E &kp T &kp O &kp NUMBER_0 &kp NUMBER_5 &kp NUMBER_1 &kp NUMBER_5 &kp NUMBER_9 &kp NUMBER_3>;
             label = "NEW_MACRO";
         };
 
         new_macro2: new_macro2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp B>;
+            bindings = <&kp NUMBER_5 &kp NUMBER_1 &kp NUMBER_5 &kp NUMBER_9 &kp NUMBER_3 &kp TAB &kp E &kp T &kp O &kp NUMBER_0 &kp NUMBER_5 &kp NUMBER_1 &kp NUMBER_5 &kp NUMBER_9 &kp NUMBER_3>;
             label = "NEW_MACRO2";
         };
     };
