@@ -180,6 +180,22 @@
         };
     };
 
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A>;
+            label = "NEW_MACRO";
+        };
+
+        new_macro2: new_macro2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B>;
+            label = "NEW_MACRO2";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
