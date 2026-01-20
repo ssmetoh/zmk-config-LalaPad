@@ -180,22 +180,6 @@
         };
     };
 
-    macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp T &kp O &kp N0 &kp N5 &kp NUMBER_1 &kp N5 &kp N9 &kp N3 &kp ENTER>;
-            label = "NEW_MACRO";
-        };
-
-        new_macro2: new_macro2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp N5 &kp N1 &kp N5 &kp N9 &kp N3 &kp TAB &kp E &kp T &kp O &kp N0 &kp N5 &kp N1 &kp N5 &kp N9 &kp N3 &kp ENTER>;
-            label = "NEW_MACRO2";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
